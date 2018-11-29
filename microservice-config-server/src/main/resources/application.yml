@@ -1,0 +1,14 @@
+server:
+  port: 8888 #服务端口
+
+spring:
+  application:
+    name: itcasst-microservice-config-server #指定服务名
+  cloud:
+    config:
+      server:
+        git: #配置git仓库地址
+          uri: git@github.com:pyygithub/spring-cloud.git
+          search-paths: config-server
+          username: pyygithub
+          password: lang123

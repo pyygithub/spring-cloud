@@ -9,6 +9,7 @@
         <module name="demo" />
         <module name="demo1" />
         <module name="eureka" />
+        <module name="microservice-config-server" />
         <module name="microservice-order" />
         <module name="microservicecloud-api" />
         <module name="microservicecloud-common" />
@@ -32,6 +33,7 @@
       <module name="demo" target="1.8" />
       <module name="demo1" target="1.8" />
       <module name="eureka" target="1.8" />
+      <module name="microservice-config-server" target="1.8" />
       <module name="microservice-item" target="1.8" />
       <module name="microservice-order" target="1.8" />
       <module name="microservicecloud-api" target="1.8" />

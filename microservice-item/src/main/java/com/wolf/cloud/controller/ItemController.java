@@ -1,5 +1,6 @@
 package com.wolf.cloud.controller;
 
+import com.wolf.cloud.config.JdbcConfigBean;
 import com.wolf.cloud.pojo.Item;
 import com.wolf.cloud.service.ItemService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,8 @@ public class ItemController {
 	@Autowired
 	private ItemService itemService;
 
+	@Autowired
+	private JdbcConfigBean jdbcConfigBean;
 
 	@GetMapping(value = "/item/{id}")
 	public Item queryItemById(@PathVariable("id") Long id) {
@@ -20,5 +23,8 @@ public class ItemController {
 	}
 
 
-
+	@GetMapping(value = "test")
+	public String test(){
+		return this.jdbcConfigBean.toString();
+	}
 }
