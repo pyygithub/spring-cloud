@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: itcasst-microservice-config-server #指定服务名
+    name: microservice-config-server #指定服务名
   cloud:
     config:
       server:
@@ -12,6 +12,12 @@ spring:
           search-paths: config-server
           username: pyygithub
           password: lang123
+  rabbitmq: #RabbitMQ相关的配置
+    host: 192.168.43.23
+    port: 5672
+    username: admin
+    password: 123456
+
 
 eureka:
   client:
@@ -23,3 +29,7 @@ eureka:
     prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
     ipAddress: 127.0.0.1
     instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port} #指定实例id
+
+management:
+  security:
+    enabled: false #是否开启actuator安全认证

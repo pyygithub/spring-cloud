@@ -3,7 +3,7 @@ server:
 
 spring:
   application:
-    name: itcasst-microservice-config-server #指定服务名
+    name: microservice-config-server #指定服务名
   cloud:
     config:
       server:
