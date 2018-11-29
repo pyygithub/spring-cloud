@@ -1,7 +1,19 @@
+eureka:
+  client:
+    #registerWithEureka: true #是否将自己注册到Eureka服务中，默认为true
+    #fetchRegistry: true #是否从Eureka中获取注册信息，默认为true
+    serviceUrl: #Eureka客户端与Eureka服务端进行交互的地址
+      defaultZone: http://127.0.0.1:8761/eureka/
+
+
 spring:
   cloud:
     config:
       name: microservice #对应的配置服务中的应用名称
-      uri: http://127.0.0.1:8888/
+      #uri: http://127.0.0.1:6869/
       profile: dev #对应配置服务中的{profile}
       label: master #对应的分支
+      discovery:
+        enabled: true #启用发现服务功能
+        service-id: microservice-config-server #指定服务名称
+
