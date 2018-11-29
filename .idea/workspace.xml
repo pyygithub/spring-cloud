@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70abe197-b094-4b87-93ac-4ad0b8e721a4" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/microservice-item/target/classes/bootstrap.yml" afterPath="$PROJECT_DIR$/microservice-item/target/classes/bootstrap.yml" />
+      <change beforePath="$PROJECT_DIR$/Spring Cloud 微服务入门 (自动保存的).docx" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/demo1/target/" />
@@ -67,7 +67,7 @@
         <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+              <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -295,28 +295,6 @@
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-config-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-config-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -547,12 +525,12 @@
       <workItem from="1543211015715" duration="6237000" />
       <workItem from="1543308768899" duration="21000" />
       <workItem from="1543368964599" duration="9902000" />
-      <workItem from="1543454268199" duration="12337000" />
+      <workItem from="1543454268199" duration="12438000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58994000" />
+    <option name="totallyTimeSpent" value="59095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-662" width="1280" height="701" extended-state="0" />
@@ -2810,7 +2788,7 @@
     <entry file="file://$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="29" column="24" lean-forward="true" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+          <caret line="29" column="24" lean-forward="false" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
           <folding />
         </state>
       </provider>
