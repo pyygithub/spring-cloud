@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70abe197-b094-4b87-93ac-4ad0b8e721a4" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-config-server/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-config-server/src/main/java/com/wolf/cloud/ConfigServerApplication.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-config-server/src/main/resources/application.yml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/microservice-item/src/main/resources/bootstrap.yml" />
       <change beforePath="$PROJECT_DIR$/config-server/microservice-dev.yml" afterPath="$PROJECT_DIR$/config-server/microservice-dev.yml" />
-      <change beforePath="$PROJECT_DIR$/microservice-item/pom.xml" afterPath="$PROJECT_DIR$/microservice-item/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/controller/ItemController.java" afterPath="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/controller/ItemController.java" />
+      <change beforePath="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java" afterPath="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java" />
     </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/demo1/target/" />
@@ -64,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/config-server/microservice-dev.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+              <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -137,26 +131,26 @@
       <file leaf-file-name="JdbcConfigBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="810">
-              <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            <state relative-caret-position="105">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#498#499#0" expanded="true" />
-                <element signature="e#536#537#0" expanded="true" />
-                <element signature="e#566#567#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#632#633#0" expanded="true" />
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#720#721#0" expanded="true" />
-                <element signature="e#755#756#0" expanded="true" />
-                <element signature="e#786#787#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#874#875#0" expanded="true" />
-                <element signature="e#916#917#0" expanded="true" />
-                <element signature="e#954#955#0" expanded="true" />
-                <element signature="e#1016#1017#0" expanded="true" />
-                <element signature="e#1070#1071#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#623#624#0" expanded="true" />
+                <element signature="e#653#654#0" expanded="true" />
+                <element signature="e#688#689#0" expanded="true" />
+                <element signature="e#719#720#0" expanded="true" />
+                <element signature="e#767#768#0" expanded="true" />
+                <element signature="e#807#808#0" expanded="true" />
+                <element signature="e#842#843#0" expanded="true" />
+                <element signature="e#873#874#0" expanded="true" />
+                <element signature="e#921#922#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1041#1042#0" expanded="true" />
+                <element signature="e#1103#1104#0" expanded="true" />
+                <element signature="e#1157#1158#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -254,8 +248,8 @@
         <option value="$PROJECT_DIR$/microservice-config-server/src/main/java/com/wolf/cloud/ConfigServerApplication.java" />
         <option value="$PROJECT_DIR$/microservice-item/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-item/src/main/resources/bootstrap.yml" />
-        <option value="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java" />
         <option value="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/controller/ItemController.java" />
+        <option value="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java" />
         <option value="$PROJECT_DIR$/config-server/microservice-dev.yml" />
       </list>
     </option>
@@ -427,6 +421,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="cloud" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="microservice-item" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
@@ -666,12 +669,12 @@
       <workItem from="1543211015715" duration="6237000" />
       <workItem from="1543308768899" duration="21000" />
       <workItem from="1543368964599" duration="9902000" />
-      <workItem from="1543454268199" duration="8806000" />
+      <workItem from="1543454268199" duration="8901000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55463000" />
+    <option name="totallyTimeSpent" value="55558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-662" width="1280" height="701" extended-state="0" />
@@ -2890,32 +2893,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="810">
-          <caret line="54" column="30" lean-forward="true" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#498#499#0" expanded="true" />
-            <element signature="e#536#537#0" expanded="true" />
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#632#633#0" expanded="true" />
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#720#721#0" expanded="true" />
-            <element signature="e#755#756#0" expanded="true" />
-            <element signature="e#786#787#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#874#875#0" expanded="true" />
-            <element signature="e#916#917#0" expanded="true" />
-            <element signature="e#954#955#0" expanded="true" />
-            <element signature="e#1016#1017#0" expanded="true" />
-            <element signature="e#1070#1071#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/controller/ItemController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="56">
@@ -2927,10 +2904,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/config/JdbcConfigBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#623#624#0" expanded="true" />
+            <element signature="e#653#654#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#719#720#0" expanded="true" />
+            <element signature="e#767#768#0" expanded="true" />
+            <element signature="e#807#808#0" expanded="true" />
+            <element signature="e#842#843#0" expanded="true" />
+            <element signature="e#873#874#0" expanded="true" />
+            <element signature="e#921#922#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1041#1042#0" expanded="true" />
+            <element signature="e#1103#1104#0" expanded="true" />
+            <element signature="e#1157#1158#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config-server/microservice-dev.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
+          <caret line="2" column="43" lean-forward="false" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
       </provider>

@@ -2,9 +2,11 @@ package com.wolf.cloud.config;
 
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.stereotype.Component;
 
 @Component//加入到Spring容器
+@RefreshScope
 public class JdbcConfigBean {
 
     @Value("${jdbc.url}")
