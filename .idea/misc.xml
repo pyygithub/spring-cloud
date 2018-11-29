@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo1/pom.xml" />
+        <option value="$PROJECT_DIR$/springcloudparent/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8001/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-eureka-7001/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-eureka-7002/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-80/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-8090/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-common/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8002/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/microservicecloud-consumer-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-item/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-order/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springcloudparent/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
