@@ -15,7 +15,7 @@ eureka:
 
 management:
   security:
-    enabled: false #是否开启actuator安全认证
+    enabled: true #是否开启actuator安全认证
 
 spring:
   application:
