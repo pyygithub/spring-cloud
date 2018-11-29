@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.wolf.cloud</groupId>
-    <artifactId>microservice-order</artifactId>
+    <artifactId>microsrvice-api-gateway </artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <parent>
@@ -28,18 +28,9 @@
     </dependencyManagement>
 
     <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>com.squareup.okhttp3</groupId>
-            <artifactId>okhttp</artifactId>
-            <version>3.9.0</version>
-        </dependency>
         <!--由于我们引入了eureka server的依赖，导致破坏了之前SpringMVC默认的配置，从而导致了响应成了xml。
 
-         解决方法：排除eureka server中的xml依赖，如下：-->
+       解决方法：排除eureka server中的xml依赖，如下：-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-eureka-server</artifactId>
@@ -51,24 +42,16 @@
             </exclusions>
         </dependency>
 
-        <!--其实，该依赖是可以省略的，因为>spring-cloud-starter-eureka-server中已经包含了spring-cloud-starter-ribbon-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-ribbon</artifactId>
+            <artifactId>spring-cloud-starter-zuul</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-hystrix</artifactId>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.6</version>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-feign</artifactId>
-        </dependency>
-
-
-
     </dependencies>
 
     <build>
@@ -94,5 +77,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

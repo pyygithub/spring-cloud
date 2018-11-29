@@ -1,9 +1,9 @@
 server:
-  port: 8082 #服务端口
+  port: 6677 #服务端口
 
 spring:
   application:
-    name: microservice-order #指定服务名
+    name: microservice-api-gateway #指定服务名
 
 eureka:
   client:
@@ -13,6 +13,13 @@ eureka:
       defaultZone: http://127.0.0.1:8761/eureka/
   instance:
     prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
-    ip-address: 127.0.0.1 #指定服务使用的ip地址
+    ip-address: 127.0.0.1
     instance-id: ${spring.cloud.client.ipAddress}:${spring.application.name}:${server.port} #指定实例id
 
+
+zuul:
+  routes:
+    item-service: #item-service这个名字是任意写的
+      path: /item-service/** #配置请求URL的请求规则
+      #url: http://127.0.0.1:8081 #真正的微服务地址
+      serviceId: microservice-item #指定Eureka注册中心中的服务id

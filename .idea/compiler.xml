@@ -9,7 +9,6 @@
         <module name="demo" />
         <module name="demo1" />
         <module name="eureka" />
-        <module name="microservice-item" />
         <module name="microservice-order" />
         <module name="microservicecloud-api" />
         <module name="microservicecloud-common" />
@@ -24,6 +23,7 @@
         <module name="microservicecloud-provider-dept-8001" />
         <module name="microservicecloud-provider-dept-8001 (1)" />
         <module name="microservicecloud-provider-dept-8002" />
+        <module name="microsrvice-api-gateway" />
         <module name="springcloud-api" />
       </profile>
     </annotationProcessing>
@@ -49,6 +49,7 @@
       <module name="microservicecloud-provider-dept-8001" target="1.8" />
       <module name="microservicecloud-provider-dept-8001 (1)" target="1.8" />
       <module name="microservicecloud-provider-dept-8002" target="1.8" />
+      <module name="microsrvice-api-gateway" target="1.8" />
       <module name="springcloud-api" target="1.8" />
       <module name="springcloud-parent" target="1.8" />
       <module name="springcloudapi" target="1.8" />

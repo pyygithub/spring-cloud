@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70abe197-b094-4b87-93ac-4ad0b8e721a4" name="Default" comment="" />
+    <list default="true" id="70abe197-b094-4b87-93ac-4ad0b8e721a4" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/microsrvice-api-gateway/pom.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/ApiGatewayApplication.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/filters/UserLoginZuulFilter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/microsrvice-api-gateway/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/microservice-item/pom.xml" afterPath="$PROJECT_DIR$/microservice-item/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/microservice-item/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservice-item/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/microservice-item/target/classes/application.yml" afterPath="$PROJECT_DIR$/microservice-item/target/classes/application.yml" />
+      <change beforePath="$PROJECT_DIR$/microservice-order/pom.xml" afterPath="$PROJECT_DIR$/microservice-order/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/microservice-order/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/microservice-order/src/main/resources/application.yml" />
+      <change beforePath="$PROJECT_DIR$/microservice-order/target/classes/application.yml" afterPath="$PROJECT_DIR$/microservice-order/target/classes/application.yml" />
+    </list>
     <ignored path="$PROJECT_DIR$/demo/target/" />
     <ignored path="$PROJECT_DIR$/demo1/target/" />
     <ignored path="$PROJECT_DIR$/springcloud-parent/target/" />
@@ -25,6 +36,7 @@
     <ignored path="$PROJECT_DIR$/eureka/target/" />
     <ignored path="$PROJECT_DIR$/microservice-item/target/" />
     <ignored path="$PROJECT_DIR$/microservice-order/target/" />
+    <ignored path="$PROJECT_DIR$/microsrvice-api-gateway/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -52,57 +64,100 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/microservice-order/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+            <state relative-caret-position="170">
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="51" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OrderApplication.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/OrderApplication.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-item/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-              <folding>
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#863#864#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/service/OrderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="23" column="43" lean-forward="false" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="43" />
+            <state relative-caret-position="258">
+              <caret line="52" column="21" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="52" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/service/ItemService.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-item/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
-              <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-              <folding>
-                <element signature="e#1891#1892#0" expanded="true" />
-                <element signature="e#1970#1971#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="240">
+              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ItemFeignClient.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/feign/ItemFeignClient.java">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+            <state relative-caret-position="265">
+              <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microservice-order/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="99" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ApiGatewayApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/ApiGatewayApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#402#403#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="160">
+              <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserLoginZuulFilter.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/filters/UserLoginZuulFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#388#389#0" expanded="true" />
+                <element signature="e#427#428#0" expanded="true" />
+                <element signature="e#961#962#0" expanded="true" />
+                <element signature="e#1005#1006#0" expanded="true" />
+                <element signature="e#1051#1052#0" expanded="true" />
+                <element signature="e#1084#1085#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZuulFilter.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0.jar!/com/netflix/zuul/ZuulFilter.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -112,8 +167,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -128,10 +183,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/microservicecloud-common/src/main/java/com/wolf/springcloud/MicroservicecloudCommonApp.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-8090/pom.xml" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/wolf/springcloud/MicroservicecloudProviderDept8002Application.java" />
-        <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/microservicecloud-common/pom.xml" />
         <option value="$PROJECT_DIR$/microservicecloud-provider-dept-8002/src/main/java/com/wolf/springcloud/controller/DeptController.java" />
         <option value="$PROJECT_DIR$/microservicecloud-consumer-dept-8090/src/main/java/com/wolf/springcloud/MicroservicecloudConsumerDept8090Application.java" />
@@ -171,14 +222,18 @@
         <option value="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/service/ItemService.java" />
         <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/controller/OrderController.java" />
         <option value="$PROJECT_DIR$/microservice-item/src/main/java/com/wolf/cloud/controller/ItemController.java" />
-        <option value="$PROJECT_DIR$/microservice-item/pom.xml" />
         <option value="$PROJECT_DIR$/eureka/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-item/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-order/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/microservice-order/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/feign/ItemFeignClient.java" />
         <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/service/ItemService.java" />
         <option value="$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/OrderApplication.java" />
+        <option value="$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/ApiGatewayApplication.java" />
+        <option value="$PROJECT_DIR$/microservice-order/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-item/pom.xml" />
+        <option value="$PROJECT_DIR$/microservice-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microservice-item/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microsrvice-api-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/filters/UserLoginZuulFilter.java" />
+        <option value="$PROJECT_DIR$/microsrvice-api-gateway/pom.xml" />
       </list>
     </option>
   </component>
@@ -254,7 +309,9 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -316,33 +373,29 @@
           <expand>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+              <item name="microsrvice-api-gateway" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microsrvice-api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microsrvice-api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microsrvice-api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microsrvice-api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -350,10 +403,12 @@
             </path>
             <path>
               <item name="spring-cloud" type="b2602c69:ProjectViewProjectNode" />
-              <item name="microservice-order" type="462c0819:PsiDirectoryNode" />
+              <item name="microsrvice-api-gateway" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="cloud" type="462c0819:PsiDirectoryNode" />
+              <item name="filters" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -406,13 +461,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.OrderApplication">
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.wolf.cloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.wolf.cloud.ApiGatewayApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="microsrvice-api-gateway" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -516,15 +590,17 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.EurekaApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.ItemApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.OrderApplication" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ApiGatewayApplication" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Spring Boot.OrderApplication" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Application.ApiGatewayApplication" />
         <item index="1" class="java.lang.String" itemvalue="Spring Boot.ItemApplication" />
+        <item index="2" class="java.lang.String" itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -550,12 +626,12 @@
       <workItem from="1543211015715" duration="6237000" />
       <workItem from="1543308768899" duration="21000" />
       <workItem from="1543368964599" duration="9902000" />
-      <workItem from="1543454268199" duration="2788000" />
+      <workItem from="1543454268199" duration="6276000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49445000" />
+    <option name="totallyTimeSpent" value="52933000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1368" y="-662" width="1280" height="701" extended-state="0" />
@@ -568,11 +644,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5638126" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40823328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40823328" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4788961" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47855917" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.49137932" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2536349" sideWeight="0.49137932" order="1" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -611,17 +687,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_111.jdk/Contents/Home/src.zip!/java/util/Optional.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1830">
-          <caret line="158" column="23" lean-forward="false" selection-start-line="158" selection-start-column="23" selection-end-line="158" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-ribbon/src/main/java/com/wolf/springcloud/config/ConfigBean.java" />
-    <entry file="file://$PROJECT_DIR$/microservicecloud-consumer-dept-ribbon/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/wolf/springcloud/entity/Dept.java" />
-    <entry file="file://$PROJECT_DIR$/microservicecloud-provider-dept-8001/src/main/resources/application.yml" />
     <entry file="file://$PROJECT_DIR$/microservicecloud-api/src/main/java/com/wolf/springcloud/service/DeptClientService.java" />
     <entry file="file://$PROJECT_DIR$/microservicecloud-api/pom.xml" />
     <entry file="file://$PROJECT_DIR$/microservicecloud-eureka-7002/src/main/resources/application.yml" />
@@ -727,22 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-item/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-item/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="38" lean-forward="false" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="38" />
           <folding />
         </state>
       </provider>
@@ -2580,26 +2629,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="16" column="26" lean-forward="false" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/microservice-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -2615,9 +2648,9 @@
     <entry file="file://$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/feign/ItemFeignClient.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="10" column="29" lean-forward="true" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          <caret line="10" column="29" lean-forward="false" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2625,10 +2658,10 @@
     <entry file="file://$PROJECT_DIR$/microservice-order/src/main/java/com/wolf/cloud/service/ItemService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-330">
-          <caret line="21" column="44" lean-forward="true" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
           <folding>
-            <element signature="e#1891#1892#0" expanded="true" />
-            <element signature="e#1970#1971#0" expanded="true" />
+            <element signature="e#1891#1892#0" expanded="false" />
+            <element signature="e#1970#1971#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2638,8 +2671,8 @@
         <state relative-caret-position="120">
           <caret line="16" column="19" lean-forward="false" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
           <folding>
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#863#864#0" expanded="true" />
+            <element signature="e#785#786#0" expanded="false" />
+            <element signature="e#863#864#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -2652,6 +2685,89 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/ApiGatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#402#403#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="51" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="52" column="21" lean-forward="false" selection-start-line="40" selection-start-column="7" selection-end-line="52" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microservice-item/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="99" lean-forward="false" selection-start-line="16" selection-start-column="99" selection-end-line="16" selection-end-column="99" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="52" column="24" lean-forward="false" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/zuul/zuul-core/1.3.0/zuul-core-1.3.0.jar!/com/netflix/zuul/ZuulFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="20" column="22" lean-forward="false" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/microsrvice-api-gateway/src/main/java/com/wolf/cloud/filters/UserLoginZuulFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="25" column="71" lean-forward="true" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#388#389#0" expanded="true" />
+            <element signature="e#427#428#0" expanded="true" />
+            <element signature="e#961#962#0" expanded="true" />
+            <element signature="e#1005#1006#0" expanded="true" />
+            <element signature="e#1051#1052#0" expanded="true" />
+            <element signature="e#1084#1085#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2707,7 +2823,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>microservicecloud-api</last-edited>
+          <last-edited>microsrvice-api-gateway</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

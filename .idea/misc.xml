@@ -22,6 +22,7 @@
         <option value="$PROJECT_DIR$/eureka/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-item/pom.xml" />
         <option value="$PROJECT_DIR$/microservice-order/pom.xml" />
+        <option value="$PROJECT_DIR$/microsrvice-api-gateway/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

@@ -6,7 +6,11 @@
 
     <groupId>com.wolf.cloud</groupId>
     <artifactId>microservice-item</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+    <modules>
+        <module>../microsrvice-api-gateway</module>
+    </modules>
 
 
     <parent>
@@ -32,11 +36,6 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <!-- 导入Eureka服务的依赖 -->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
         </dependency>
 
         <!--由于我们引入了eureka server的依赖，导致破坏了之前SpringMVC默认的配置，从而导致了响应成了xml。
